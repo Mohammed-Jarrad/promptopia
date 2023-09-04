@@ -1,6 +1,6 @@
 'use client'
-import Profile from '@components/profile'
-import { useParams, useRouter, useSearchParams } from 'next/navigation'
+import Profile from '@components/Profile'
+import { useParams, useSearchParams } from 'next/navigation'
 import { useEffect, useState } from 'react'
 
 const UserProfile = () => {
