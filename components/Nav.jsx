@@ -105,8 +105,8 @@ const Nav = () => {
 								<Link href={'/profile'} className="dropdown_link" onClick={toggleDropMenu}>
 									My Profile
 								</Link>
-								<Link href={'/profile'} className="dropdown_link" onClick={toggleDropMenu}>
-									Create Post
+								<Link href={'/create-prompt'} className="dropdown_link" onClick={toggleDropMenu}>
+									Create Prompt
 								</Link>
 								<button
 									className="black_btn mt-2 w-full"
